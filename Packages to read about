@@ -6,3 +6,9 @@ https://api.dart.dev/stable/3.3.0/dart-collection/dart-collection-library.html
 Freezed
 code generator for data-classes/unions/pattern-matching/cloning.
 https://pub.dev/packages/freezed
+
+
+https://pub.dev/packages/image
+The Dart Image Library provides the ability to load, save, and manipulate images in a variety of image file formats.
+
+
