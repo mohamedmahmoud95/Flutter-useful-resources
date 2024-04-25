@@ -1,0 +1,42 @@
+#Preparing your app before distribution: 
+
+App Store Screenshots Generator: https://appscreens.com/
+
+app mock-ups: https://app-mockup.com/
+
+App Icon generators:
+https://romannurik.github.io/AndroidAssetStudio/
+https://www.appicon.co/
+
+AppStore image resizer: https://github.com/wimagguc/appstore-image-resizer
+
+App docs (Privacy Policy, Terms and Conditions, Return Policy, …): https://app.termly.io
+
+Package to change app and bundleId: https://pub.dev/packages/rename
+Package to change app icon: https://pub.dev/packages/flutter_launcher_icons
+
+
+
+#App distribution:
+
+1- Flutter official documentation about app deployment:
+https://docs.flutter.dev/deployment
+
+
+Flutter tutorial video: Release an iOS app with Flutter in 7 steps:
+https://youtu.be/iE2bpP56QKc?si=dDSmkxGd9kqdeTVE
+
+Video tutorial: Release your app to Play Store: 
+https://youtu.be/g0GNuoCOtaQ?si=fqMalVhRS2Qy9-mb
+
+
+
+#App monitoring, testing, and automated distribution tools:
+
+Useful Firebase tools to monitor app performance, crashalytics, testing and distibution, remote config, and more:
+https://firebase.google.com/products-build
+
+Code push (automated app build and release) solutions:
+ShoreBird: https://docs.shorebird.dev/
+Fastlane: https://fastlane.tools/
+Code Magic (CI/CD): https://docs.codemagic.io/
