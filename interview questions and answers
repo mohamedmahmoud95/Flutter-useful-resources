@@ -1,2 +1,5 @@
 - What is the difference between async and isolate (single vs multi-threading):
 Answer: https://api.flutter.dev/flutter/foundation/compute.html
+
+- then Vs await
+  https://www.youtube.com/watch?v=gpI8njHTf50
