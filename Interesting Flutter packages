@@ -20,4 +20,11 @@ https://pub.dev/packages/flutter_jailbreak_detection
 https://pub.dev/packages/google_generative_ai
 To integrate with Google's AI models, like Gemini
 
+https://pub.dev/packages/flutter_animate
+
+
+https://pub.dev/packages/loader_overlay
+For when you're doing some async processing on your screen and want to prevent the user from interacting with the screen while the application is loading
+
+
 
