@@ -26,5 +26,9 @@ https://pub.dev/packages/flutter_animate
 https://pub.dev/packages/loader_overlay
 For when you're doing some async processing on your screen and want to prevent the user from interacting with the screen while the application is loading
 
+Flutter offline
+and alternative to internet connection state management 
+
+
 
 
