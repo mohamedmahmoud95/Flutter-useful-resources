@@ -1,0 +1,24 @@
+Flutter Localization (multi-language support)
+Step by step guide:
+1- install the extension: Flutter Intl (by localizely), https://plugins.jetbrains.com/plugin/13666-flutter-intl
+2- Intitialize the extension for your project (Tools -> Flutter Intl-> initialize for the project)
+3- flutter pub add intl
+4- add dependency needed for localization in your pubspec.yaml:
+     flutter_localizations:
+        sdk: flutter
+5- to support localization on iOS devices, add the following to your info.plist:
+    ‹key>CFBundleLocalizations</key>
+    ‹array>
+    <string>en</string>
+    <string>ar</string>
+    </array>
+
+  add all the languages you want your app to support
+
+- That's it for the setup and initialization, now, you're ready to use localization in your app
+6- to add a new keyword, go to Intl_en.arb, then add a new key and value to the new keyword (i.e. "title" : "Flutter localization app")
+7- to add a language, click: Tools, Flutter Intl, add locale, and add a new file for the new language (or add a new file called intl_ar.arb for example, into the intl directory), and add the keywords in that language (i.e. "title": "دعم اللغات المتعددة")
+8- to use this keyword with ability to auto translate, 
+9- to switch between languages, change the value of the current local inside your material app (MaterialApp(locale: const Locale('ar'), ...))
+
+
