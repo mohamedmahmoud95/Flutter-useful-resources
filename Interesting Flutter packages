@@ -29,6 +29,14 @@ For when you're doing some async processing on your screen and want to prevent t
 Flutter offline
 and alternative to internet connection state management 
 
+Packages for Google Maps integration:
+ - https://pub.dev/packages/google_maps_flutter
+ - https://pub.dev/packages/location
+ - https://pub.dev/packages/geocoding
+ - https://pub.dev/packages/uuid
+ - https://pub.dev/packages/geolocator
+
+
 
 
 
