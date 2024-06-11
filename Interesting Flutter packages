@@ -35,6 +35,7 @@ Packages for Google Maps integration:
  - https://pub.dev/packages/geocoding
  - https://pub.dev/packages/uuid
  - https://pub.dev/packages/geolocator
+ - https://pub.dev/packages/flutter_polyline_points
 
 
 
