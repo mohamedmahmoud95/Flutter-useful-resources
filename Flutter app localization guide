@@ -6,7 +6,7 @@ Step by step guide:
 4- add dependency needed for localization in your pubspec.yaml:
      flutter_localizations:
         sdk: flutter
-5- to support localization on iOS devices, add the following to your info.plist:
+5- [optional, it worked with me without doing this step] to support localization on iOS devices, add the following to your info.plist:
     ‹key>CFBundleLocalizations</key>
     ‹array>
     <string>en</string>
@@ -14,6 +14,17 @@ Step by step guide:
     </array>
 
   add all the languages you want your app to support
+6- add the following lines under MaterialApp in main.dart
+
+locale: const Locale('en'),
+      localizationsDelegates: const [
+        S.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: S.delegate.supportedLocales,
+
 
 - That's it for the setup and initialization, now, you're ready to use localization in your app
 6- to add a new keyword, go to Intl_en.arb, then add a new key and value to the new keyword (i.e. "title" : "Flutter localization app"), note: you cannot use single quotes in this json file, must use double quotes instead
