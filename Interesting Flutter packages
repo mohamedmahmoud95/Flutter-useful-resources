@@ -38,6 +38,12 @@ Packages for Google Maps integration:
  - https://pub.dev/packages/flutter_polyline_points
 
 
+https://pub.dev/packages/feedback
+A Flutter package for obtaining better feedback. It allows the user to provide interactive feedback directly in the app, by annotating a screenshot of the current page, as well as by adding text.
+
+
+
+
 
 
 
