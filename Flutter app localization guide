@@ -29,7 +29,7 @@ locale: const Locale('en'),
 - That's it for the setup and initialization, now, you're ready to use localization in your app
 6- to add a new keyword, go to Intl_en.arb, then add a new key and value to the new keyword (i.e. "title" : "Flutter localization app"), note: you cannot use single quotes in this json file, must use double quotes instead
 7- to add a language, click: Tools, Flutter Intl, add locale, and add a new file for the new language (or add a new file called intl_ar.arb for example, into the intl directory), and add the keywords in that language (i.e. "title": "دعم اللغات المتعددة")
-8- to use this keyword with ability to auto translate, 
+8- to use this keyword with ability to auto translate, use S.of(context).textName, example: Text(S.of(context).title), don't forget to import import '../../../../generated/l10n.dart';
 9- to switch between languages, change the value of the current local inside your material app (MaterialApp(locale: const Locale('ar'), ...))
 
 
