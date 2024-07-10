@@ -1,0 +1,2 @@
+open a terminal window from your android folder (inside of your current project, or any Flutter project)
+./gradlew signingReport
