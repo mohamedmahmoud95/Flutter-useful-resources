@@ -1,0 +1,5 @@
+1- Flutter web can't load network image from another domain:
+    flutter run -d chrome --web-renderer html // to run the app
+    or:
+    flutter build web --web-renderer html --release // to generate a production build
+    read more: https://stackoverflow.com/questions/65653801/flutter-web-cant-load-network-image-from-another-domain?newreg=4fac51bbad2f43fa8877314c9055dd90
