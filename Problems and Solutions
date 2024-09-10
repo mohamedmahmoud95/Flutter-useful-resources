@@ -3,3 +3,8 @@
     or:
     flutter build web --web-renderer html --release // to generate a production build
     read more: https://stackoverflow.com/questions/65653801/flutter-web-cant-load-network-image-from-another-domain?newreg=4fac51bbad2f43fa8877314c9055dd90
+    or:
+    beside the run button in Android Studio, click the configuration button (click on main.dart)
+    edit configurations
+    add this to the additional run args: --web-renderer HTML
+    then run normally by clicking on the run button
