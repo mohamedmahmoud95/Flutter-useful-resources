@@ -1,0 +1,12 @@
+1- dart fix:
+    dart fix --dry-run
+    This command will analyze your code and show you the potential fixes without applying them.
+    
+    dart fix --apply
+    This command will apply the fixes that were identified by the analysis.
+    
+    dart fix can automatically fix:
+    Lint Issues: Code style improvements, deprecations, simplifications, and null safety enhancements.
+    Migration Issues: Null safety migration, library updates, and syntax changes.
+    It helps keep your Dart code clean, modern, and up-to-date.
+
