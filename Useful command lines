@@ -10,3 +10,7 @@
     Migration Issues: Null safety migration, library updates, and syntax changes.
     It helps keep your Dart code clean, modern, and up-to-date.
 
+2- dart format:
+    To remove unused imports, you can use the command:
+    dart format --fix .
+    Or, you can use IDE features like "Organize Imports" in Visual Studio Code or Android Studio, which automatically remove unused imports.
