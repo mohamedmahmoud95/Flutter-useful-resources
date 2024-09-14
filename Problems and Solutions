@@ -6,5 +6,5 @@
     or:
     beside the run button in Android Studio, click the configuration button (click on main.dart)
     edit configurations
-    add this to the additional run args: --web-renderer HTML
+    add this to the additional run args: --web-renderer html
     then run normally by clicking on the run button
