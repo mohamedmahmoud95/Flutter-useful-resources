@@ -7,6 +7,8 @@ Freezed
 code generator for data-classes/unions/pattern-matching/cloning.
 https://pub.dev/packages/freezed
 
+https://pub.dev/packages/flutter_gen
+
 
 https://pub.dev/packages/image
 The Dart Image Library provides the ability to load, save, and manipulate images in a variety of image file formats.
