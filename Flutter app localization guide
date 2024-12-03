@@ -33,3 +33,7 @@ locale: const Locale('en'),
 9- to switch between languages, change the value of the current local inside your material app (MaterialApp(locale: const Locale('ar'), ...))
 
 
+when cloning an app that contains flutter_localization, the app may not recognize the localization dependencies despite that it's in pubspec.yaml
+just run: 
+flutter pub get
+flutter gen-l10n
